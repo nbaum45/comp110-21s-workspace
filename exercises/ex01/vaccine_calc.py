@@ -33,4 +33,5 @@ days_needed_timedelta: timedelta = timedelta(days_needed)
 today: datetime = datetime.today()
 target_date: datetime = today + days_needed_timedelta
 
-print("We will reach " + str(target_percent) + "% " + "vaccination in " + str(days_needed) + " days, which falls on " + target_date.strftime("%B %d, %Y") + ".")  
+output_part1: str = "We will reach " + str(target_percent) + "%" + " vaccination in " + str(days_needed)
+print(str(output_part1) + " days, which falls on " + target_date.strftime("%B %d, %Y") + ".")  

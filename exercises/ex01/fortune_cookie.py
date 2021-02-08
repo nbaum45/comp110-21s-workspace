@@ -26,5 +26,3 @@ else:
     else:
         print("You will read an inspring book this month.")
 print("Now, go spread positive vibes!")
-        
-
